@@ -1,6 +1,9 @@
 # About
 This is a Hashicorp Packer script to create a Microsoft Windows Server 2022 Desktop or Core template VM on the Proxmox hypervisor. The template includes the latest Microsoft Windows Updates, virtio drivers and the Cloudbase client software.
 
+> NOTE: This is a fork. The intent is to provide some small fixes + maintenance to the existing code base, as well as expand it to provide some features.
+> I found this repo incredibly helpful as I was tackling rolling out Windows Server templates for my Proxmox environment and hope that these small fixes can help the next person.
+
 ## Highlights
 
 - Automates Windows Server 2022 setup and configuration.
